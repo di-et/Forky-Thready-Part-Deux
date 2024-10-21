@@ -31,7 +31,7 @@ void* pattern_two_thread(void* arg) {
     int p2 = *((int*)arg);
     printf("Thread %d TID: %lu created by main thread\n", p2, pthread_self());
     sleep(rand() % 8 + 1);
-    if (p2 == 1) { // Simulating behavior of the last process in original code
+    if (p2 == 1) { 
         printf("Thread %d TID: %lu exiting\n", p2, pthread_self());
     }
     return NULL;

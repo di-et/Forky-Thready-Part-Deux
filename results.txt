@@ -1,0 +1,14 @@
+root@DESKTOP-PTK1MGL:/home/d_rue/351_projects/7-thready-di-et/7-thready-di-et# ./forky_thready 4 2
+Pattern 2
+Thread 1 TID: 140643572909760 created by main thread
+Thread 2 TID: 140643564455616 created by main thread
+Thread 4 TID: 140643547547328 created by main thread
+Thread 3 TID: 140643556001472 created by main thread
+Thread 1 TID: 140643572909760 exiting
+root@DESKTOP-PTK1MGL:/home/d_rue/351_projects/7-thready-di-et/7-thready-di-et# ./forky_thready 4 1
+Pattern 1
+Thread 1 TID: 139880406451904 created by main thread
+Thread 2 TID: 139880397997760 created by main thread
+Thread 3 TID: 139880389543616 created by main thread
+Thread 4 TID: 139880381089472 created by main thread
+root@DESKTOP-PTK1MGL:/home/d_rue/351_projects/7-thready-di-et/7-thready-di-et# 
